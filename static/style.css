@@ -45,7 +45,7 @@ nav .container .collapse .nav .dropdown-menu li a:hover {
 }
 
 .cover {
-    background: url(image/DSC_0001.jpg) top left no-repeat;
+    background: url(../image/DSC_0001.jpg) top left no-repeat;
     background-size: cover;
     display: table;
    
