@@ -209,13 +209,58 @@ h3:hover {
     background-color: rgba(0,0,0,0.1);
     display: inline;
 }
+.modal-header, h4, .close {
+      background-color: rgba(255,0,0,0.8);
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+.send {
+    background-color:rgba(255,0,0,0.8); 
+    color: white;
+    padding: 10px;
+   
+}
+
+.send:hover {
+    padding: 12px;
+     background-color:rgb(255,0,0);
+    color: white;
+}
+
+
+.myBtn, .myBtn:link {
+      margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #f42929;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.myBtn:hover {
+      background-color: #ffffff;
+  color: #f42929;
+  border-color: #f42929;
+}
 
 
 .home-newsletter {
 padding: 10px 0;
 background: black;
     color: white;
-    margin-top: 250px;
+    margin-top: 350px;
     font-size-adjust: auto;
 }
 
