@@ -1,11 +1,17 @@
 html, body, .cover {
     height: 100%;
+    background: white;
+}
+
+nav{
+    background-color: white;
+    height: 80px;
+    margin-bottom: 0;
 }
 
 
-nav {
-
-    height: 72px;
+nav.navbar.navbar-default.navbar-fixed-top{
+    margin-bottom: 0;
 }
 
 nav .container .collapse .nav button {
@@ -13,11 +19,12 @@ nav .container .collapse .nav button {
 }
 
 nav .container .navbar-header a img {
-    margin-top: -13px;
+    margin-top: -8px;
+    margin-left: -20px;
 }
 
 nav .container .collapse .nav a {
-    padding: 18px;
+    padding: 15px;
     font-size: 15px;
     
 }
@@ -44,25 +51,10 @@ nav .container .collapse .nav .dropdown-menu li a:hover {
     
 }
 
-.cover {
-    background: url(../image/DSC_0001.jpg) top left no-repeat;
-    background-size: cover;
-    display: table;
-   
-    width: 100%;
-    height: 662px;
-    padding: 0 20%;
-    box-shadow: inset 0 0 100px #000;
-}
 
-.cover-text {
-    
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-   
-    display: table-cell;
-}
+
+
+
 
 
 .caption h5 {
@@ -80,12 +72,13 @@ nav .container .collapse .nav .dropdown-menu li a:hover {
 
 
 .fa {
-  padding: 20px;
-  font-size: 40px;
-  width: 70px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+    height: 40px;
   text-align: center;
   text-decoration: none;
-  margin: 10px 40px;
+  margin: 15px ;
   border-radius: 50%;
 }
 
@@ -111,36 +104,10 @@ nav .container .collapse .nav .dropdown-menu li a:hover {
 
 
 
-.pan {
-    text-align: center;
-    background: rgba(0,0,0,0.7);
-    margin-top: 130px;
-    padding: 5px;
-}
-
-.cover-text h1 {
-
-    font-size: 70px;
-    letter-spacing: -3px;
-}
 
 
-.cover .pan .cover-text a button {
-    border-radius: 0%;
-    margin: 5px 20px;
-}
 
-.cover .pan .cover-text a:hover button {
-    background: black;
-    border: 2px solid white;
-    color: red;
-}
 
-#speakers {
-    margin-top: 700px;
-   
-    
-}
 
 #speakers h2 {
     font-size: 40px;
@@ -210,6 +177,7 @@ nav .container .collapse .nav .dropdown-menu li a:hover {
     border-radius: 100%;
     margin-left: 30px;
     border: 2px solid black;
+    font-size-adjust: auto;
 }
 
 .talk p{
@@ -246,13 +214,60 @@ h3:hover {
     background-color: rgba(0,0,0,0.1);
     display: inline;
 }
+.modal-header, h4, .close {
+      background-color: rgba(255,0,0,0.8);
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+.send {
+    background-color:rgba(255,0,0,0.8); 
+    color: white;
+    padding: 10px;
+   
+}
+
+.send:hover {
+    padding: 12px;
+     background-color:rgb(255,0,0);
+    color: white;
+}
+
+
+.myBtn, .myBtn:link {
+    margin-top: 30px;
+      margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #f42929;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.myBtn:hover {
+      background-color: #ffffff;
+  color: #f42929;
+  border-color: #f42929;
+}
 
 
 .home-newsletter {
 padding: 10px 0;
 background: black;
     color: white;
-    margin-top: 400px;
+    margin-top: 350px;
+    font-size-adjust: auto;
 }
 
 .home-newsletter .single {
@@ -300,4 +315,14 @@ border: none;
     min-height: 30px;
     padding: 7px 0;
   
+}
+.scroll{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.scroll a{
+    position: relative;
+}
+::-webkit-scrollbar{
+    display: none;
 }
