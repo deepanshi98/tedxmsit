@@ -63,19 +63,7 @@ html, body, .cover {
     padding: 100px;
 }
 
-.about {
-    background-color: white;
-    text-align: inherit;
-    margin: auto;
-}
 
-.about h1 {
-    font-size: 40px;
-}
-.about p {
-    font-family: "quicksand";
-    font-size: 15px;
-}
 
 
 .about img {
@@ -83,20 +71,6 @@ html, body, .cover {
   
     height: 300px;
     width: 390px;}
-
-.writeup {
-    height: 280px;
-    width: 300px;
-    border-radius: 100%;
-    margin-left: 30px;
-    border: 2px solid black;
-    font-size-adjust: auto;
-}
-
-.talk p{
-    font-family:  "quicksand";
-    font-size: 15px;
-}
 
 
 .talk:hover {
@@ -136,15 +110,8 @@ html, body, .cover {
     }
 }
 
-.simg img:hover {
-  
-    height: 260px;
-    width: 310px;
-}
 
-.talk a:hover {
-    color: yellow;
-}
+
 .simg img {
    
     height: 300px;
@@ -155,19 +122,6 @@ html, body, .cover {
     margin: 20px;
 }
 
-
-.send {
-    background-color:rgba(255,0,0,0.8); 
-    color: white;
-    padding: 10px;
-   
-}
-
-.send:hover {
-    padding: 12px;
-     background-color:rgb(255,0,0);
-    color: white;
-}
 
 
 .footer-bottom {
